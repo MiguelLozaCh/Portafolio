@@ -8,6 +8,7 @@ header{
     background-color: aqua;
     display: flex;
     justify-content:space-between;
+    background: linear-gradient(white ,rgb(159,194,2542));
 }
 
 .logo{
@@ -19,6 +20,11 @@ p{
     margin: 5px;
     /* border: dotted 3px blue; */
     padding: 10px;
+    font-weight: bold;
+    color: blue;
+    font-size: 30px;
+    text-shadow: 10px 10px 2.5px black;
+    letter-spacing: 3px;
 }
 
 img{
@@ -34,4 +40,11 @@ a{
 
 li{
     border: solid 1px yellow;
+    padding: 10px;
+    background-color: blue;
+    width: 200px;
+    margin: 30px;
+    text-align: center;
+    border-radius: 35px;
+    box-shadow: 3px 3px 3px black;
 }
