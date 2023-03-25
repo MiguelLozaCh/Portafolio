@@ -6,14 +6,18 @@
 }
 header{
     background-color: aqua;
-    display: flex;
-    justify-content:space-between;
+    /* display: flex; */
+    /* justify-content:space-between; */
     background: linear-gradient(white ,rgb(159,194,2542));
 }
 
 .logo{
     height: 100px;
     width: 100px;
+}
+
+ul{
+    display: flex;
 }
 
 p{
