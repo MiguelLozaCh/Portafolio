@@ -9,27 +9,86 @@ header{
     /* display: flex; */
     /* justify-content:space-between; */
     background: linear-gradient(white ,rgb(159,194,2542));
+    height: 100vh;
+    width: 100%;
+}
+
+nav{
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo{
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
 }
 
 ul{
     display: flex;
 }
 
-p{
-    margin: 5px;
+
+.content_menu{
+    display: block;
+}
+
+.p_content_name{
+    margin-left: 1px;
     /* border: dotted 3px blue; */
-    padding: 10px;
+    padding-left: 10px;
     font-weight: bold;
     color: blue;
-    font-size: 30px;
-    text-shadow: 10px 10px 2.5px black;
-    letter-spacing: 3px;
+    font-size: 15px;
+    text-shadow: 7px 7px 2.5px black;
+    letter-spacing: 2px;    
 }
+
+.content_bio{
+    margin-left: 10px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid ;
+    height: 80vh;
+}
+
+.content_bio h1{
+    font-size: 4em;
+}
+
+.content_bio span{
+    color: blue;
+    font-style: italic;
+    text-shadow: 3px 2px black;
+    text-align: right;
+}
+
+.content_bio_description{
+    width: 50%;
+}
+.contenedor_img{
+    background-color: aqua;
+    display: flex;
+    width: 50%;
+}
+
+.img_contect_bio{
+    height: 50%;
+    
+}
+
+.img_contect_bio:hover{
+    /* filter: blur(5px); */
+    filter: grayscale(80%);
+}
+
+.content_bio_description{
+   width: 40%;
+}
+
 
 img{
     margin: 5px;
@@ -42,7 +101,7 @@ a{
     color: white;
 }
 
-li{
+header nav li{
     border: solid 1px yellow;
     padding: 10px;
     background-color: blue;
@@ -51,4 +110,21 @@ li{
     text-align: center;
     border-radius: 35px;
     box-shadow: 3px 3px 3px black;
+    list-style-type: none;
+}
+
+
+header nav li:hover{
+    opacity: 0.5;
+    /* font-size: 1em; */
+    /* background-color: aqua;
+    color: black;
+} */
+
+footer {
+
+    /* background-color: blue;
+    width: 400px;
+    height: 30vh;   
+    overflow: auto; */
 }
