@@ -8,7 +8,7 @@ header{
     background-color: aqua;
     /* display: flex; */
     /* justify-content:space-between; */
-    background: linear-gradient(white ,rgb(159,194,2542));
+    background: linear-gradient(rgb(159,194,2542), white);
     height: 100vh;
     width: 100%;
 }
@@ -51,7 +51,7 @@ ul{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid ;
+    
     height: 80vh;
 }
 
@@ -70,7 +70,6 @@ ul{
     width: 50%;
 }
 .contenedor_img{
-    background-color: aqua;
     display: flex;
     width: 50%;
 }
@@ -118,13 +117,51 @@ header nav li:hover{
     opacity: 0.5;
     /* font-size: 1em; */
     /* background-color: aqua;
-    color: black;
-} */
+    color: black;*/
+} 
 
-footer {
+.section_acerca{
+    width: 100%;
+    height: 80vh;
+    background: url(../img/897.jpg);
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+}
 
-    /* background-color: blue;
+h2{
+    font-size: 2em;
+    text-align: center;
+}
+
+.acerca_1{
+    height: 70vh;
+    border: solid 1px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.acerca_2{
+    border: solid 1px;
+    display: flex;
+    align-items: center;
+    width: 60%;
+    height: 50vh;
+    text-align: justify;
+    justify-items: auto;
+    background: linear-gradient(to right, rgba(0, 0, 255, 0.10), rgba(0, 255, 255, 0.10)) ;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/*footer {
+
+     background-color: blue;
     width: 400px;
     height: 30vh;   
-    overflow: auto; */
-}
+    overflow: auto; 
+} */
